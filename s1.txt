@@ -1,0 +1,17 @@
+f2()
+{
+        echo "hello1"
+
+}
+
+f1()
+{
+	echo "hello $1 $2"
+	#return 5
+	f2
+}
+f1 abc pqr
+
+#r=$?
+#echo "the return value is $r "
+
